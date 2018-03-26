@@ -6,20 +6,31 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## To run: 
+- Go to bin dir
+- Type: `ruby rails server`
+- Access `localhost:3000` to see the server running
+- To see the saved tasks access: http://localhost:3000/tasks 
 
-* System dependencies
+## To clean the db:
+- First, top the execution
+- Type: `rake db:schema:load`
+- After that and before running the client-side, type `rake db:seed` and then `rails server` 
 
-* Configuration
+## Ruby version
 
-* Database creation
+## System dependencies
 
-* Database initialization
+## Configuration
 
-* How to run the test suite
+## Database creation
 
-* Services (job queues, cache servers, search engines, etc.)
+## Database initialization
 
-* Deployment instructions
+## How to run the test suite
 
-* ...
+## Services (job queues, cache servers, search engines, etc.)
+
+## Deployment instructions
+
+

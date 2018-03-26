@@ -2,10 +2,8 @@
 
 one:
   name: MyString
-  description: MyString
-  isChecked: false
+  string: MyString
 
 two:
   name: MyString
-  description: MyString
-  isChecked: false
+  string: MyString
