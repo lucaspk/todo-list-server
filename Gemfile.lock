@@ -64,6 +64,7 @@ GEM
     nio4r (2.3.0)
     nokogiri (1.8.2-x86-mingw32)
       mini_portile2 (~> 2.3.0)
+    pg (1.0.0-x86-mingw32)
     puma (3.11.3)
     rack (2.0.4)
     rack-cors (1.0.2)
@@ -113,7 +114,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2018.3)
+    tzinfo-data (1.2018.4)
       tzinfo (>= 1.0.0)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
@@ -125,6 +126,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   listen (~> 3.0.5)
+  pg
   puma (~> 3.7)
   rack-cors
   rails (~> 5.1.5)

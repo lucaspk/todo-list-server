@@ -19,6 +19,7 @@ class TasksController < ApplicationController
 
     if @task.save
       render json: @task, status: :created, location: @task
+      #render json: Task.find(params[:name, :description, :isChecked]), status: :created, location: @task
     else
       render json: @task.errors, status: :unprocessable_entity
     end
